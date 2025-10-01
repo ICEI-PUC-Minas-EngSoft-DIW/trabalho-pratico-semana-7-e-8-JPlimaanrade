@@ -5,26 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Deepwoken Fan Hub</title>
-    <!--<link rel="stylesheet" href="style.css">-->
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
-
-  
-
     <!-- Cabeçalho -->
     <header class="cabecalho">
-
         <div class="bg-dark text-danger text-center py-2">
             <h1>Deepwoken Fan Hub</h1>
         </div>
-
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-                <img src="/public/Imagens/Deepwoken logo2.png" alt="Bootstrap" width="50" height="50" class="mx-2">
+                <img src="Imagens/Deepwoken logo2.png" alt="Logo" width="50" height="50" class="mx-2">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -32,99 +24,61 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active " aria-current="page" href="#"> Wiki</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link active " aria-current="page" href="#"> Perfil</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#"> Community</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#"> Builds</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#"> Lore</a>
-                        </li>
+                        <li class="nav-item"><a class="nav-link active" href="#">Wiki</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="#">Perfil</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="#">Community</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="#">Builds</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="#">Lore</a></li>
                     </ul>
                     <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                         <button class="btn btn-outline-success" type="submit">Search</button>
-
-                        
                     </form>
                 </div>
             </div>
         </nav>
-
     </header>
 
-    <!-- Conteúdo principal do site -->
+    <!-- Conteúdo principal -->
     <main class="tela_principal">
-
-
         <div id="carouselExampleCaptions" class="carousel slide">
-            <div class="carousel-indicators">
-            </div>
-
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="/public/Imagens/BannerIMG.jpg" class="d-block w-100" alt="...">
+                    <img src="Imagens/BannerIMG.jpg" class="d-block w-100" alt="Banner">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5 class="text-info bg-dark  rounded-pill p-2">Bem-vindo ao Deepwoken Fan Hub!</h5>
-                        <p class="text-success text-5 bg-dark  rounded-pill p-2">Seu ponto de encontro para tudo relacionado a Deepwoken. Explore guias,
-                            participe da comunidade e descubra o lore do jogo.
-                        Esse é um site feito por apenas uma pessoa atualmente, e conta com<br>
-                        várias coisas legais! que vale apena você fã de deepwoken dar uma olhadinha!!</p>
+                        <h5 class="text-info bg-dark rounded-pill p-2">Bem-vindo ao Deepwoken Fan Hub!</h5>
+                        <p class="text-success text-5 bg-dark rounded-pill p-2">
+                            Seu ponto de encontro para tudo relacionado a Deepwoken. Explore guias, participe da comunidade
+                            e descubra o lore do jogo. Este é um site feito por apenas uma pessoa atualmente!
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!--As postagens agrupadas ficam aqui!-->
+        <!-- Postagens -->
         <section class="container-fluid bg-success">
             <h2 class="text-center p-3">Postagens Recentes</h2>
-            <div id="cards-container" class="row justify-content-center">
-               
-            </div>
-
-
+            <div id="cards-container" class="row justify-content-center"></div>
         </section>
-
-        </div>
-
     </main>
 
-    <!-- Rodapé do site -->
-    <footer class="bg-secondary text-center text-decoration-none p-3" >
-
-        <!--Links de redes sociais-->
+    <!-- Rodapé -->
+    <footer class="bg-secondary text-center text-decoration-none p-3">
         <ul class="list-unstyled d-flex justify-content-center mb-3">
             <li><a href="https://www.instagram.com/joaoo._andrade/" class="text-decoration-none text-reset mx-2 bg-white p-1 rounded-pill">Instagram</a></li>
             <li><a href="https://github.com/JPlimaanrade" class="text-decoration-none text-reset mx-2 bg-white p-1 rounded-pill">Github</a></li>
             <li><a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-lima-de-andrade-ba1a31311/" class="text-decoration-none text-reset mx-2 bg-white p-1 rounded-pill">LinkedIn</a></li>
         </ul>
-
-        <p text class="text-white">
+        <p class="text-white">
             Desenvolvido por João Pedro Lima de Andrade.<br>
             Puc Minas COREU 1° Semestre.<br>
-            © 2025 Deepwoken Fan Hub. Todos os direitos reservados. Projeto não oficial, feito por fã.
+            © 2025 Deepwoken Fan Hub. Todos os direitos reservados.
         </p>
-
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous">
-    </script>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
     <script src="app.js"></script>
-
-    </body>
+</body>
 
 </html>
